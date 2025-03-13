@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get busy editing <code>src/app/page.js</code>.
+            Get busy living <code>or get busy dying</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
