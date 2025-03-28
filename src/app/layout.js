@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
