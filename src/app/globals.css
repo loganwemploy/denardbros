@@ -70,12 +70,13 @@ a {
   grid-template-columns: 10px;
   grid-template-rows: minmax(150px, 1fr);
   grid-auto-flow: column;
-  grid-auto-columns: calc(50% - var(--gutter) * 2);
+  grid-auto-columns: calc(20em - var(--gutter) * 2);
 
   overflow-x: scroll;
   scroll-snap-type: x proximity;
   padding-bottom: calc(.75 * var(--gutter));
   margin-bottom: calc(-.25 * var(--gutter));
+  scroll-behavior: smooth;
 }
 
 .hs:before,
@@ -96,6 +97,7 @@ body {
   display: grid;
   place-items: center;
   background: #456173;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -110,7 +112,7 @@ h3 {
 }
 
 .app {
-  
+  scroll-behavior: smooth ;
   background: #f7f7f6;
   overflow-y: scroll;
 }
@@ -139,3 +141,8 @@ h3 {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+  /* 
+
+  .item {
+    margin-right: 2em;
+  } */
