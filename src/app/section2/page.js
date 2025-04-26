@@ -27,4 +27,5 @@ const Section2 = () => {
       </section>
     </div>
   )
-}xport default Section2
+}
+export default Section2
