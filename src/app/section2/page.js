@@ -8,7 +8,7 @@ const Section2 = () => {
           <div class="space-y-4 md:space-y-8">
             <div class="max-w-xl">
               <h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">
-                Lorem Ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </h2>
 
               <p class="mt-4 text-gray-700">
