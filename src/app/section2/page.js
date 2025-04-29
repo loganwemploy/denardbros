@@ -12,7 +12,7 @@ const Section2 = () => {
               </h2>
 
               <p class="mt-4 text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe
+                Lorem Ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe
                 architecto maiores repudiandae amet perferendis repellendus, reprehenderit voluptas sequi.
               </p>
             </div>
