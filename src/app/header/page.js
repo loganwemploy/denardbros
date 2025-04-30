@@ -19,12 +19,6 @@ const Header = () => {
 
 
   return (
-<<<<<<< Updated upstream
-    <div className='flex justify-between items-center px-[50px] py-[35px]'>
-      <Link href="/" className='font-semibold text-[25px]'>
-      DENARD BROS
-      </Link>
-=======
     <div className='bg-white flex justify-around items-center px-[0px] py-[5px] text-black  w-full'>
     <div className='flex items-center justify-center gap-2 text-black w-1/3'> 
       <span> &nbsp; &nbsp;</span>
@@ -44,7 +38,6 @@ const Header = () => {
       DENARD&nbsp;BROS
       </Link>
 
->>>>>>> Stashed changes
 
      <ul className={`fixed w-full h-full bg-red-400 ${toggle ? "top-0" : '-top-[100%]'} left-0
      flex flex-col justify-center xl:relative xl:top-0 xl:-left-0 xl:bg-transparent xl:flex-row 
