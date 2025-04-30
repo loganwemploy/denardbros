@@ -19,10 +19,25 @@ const Header = () => {
 
 
   return (
-    <div className='flex justify-between items-center px-[50px] py-[35px]'>
+    <div className='bg-white flex justify-around items-center px-[0px] py-[5px] text-black  w-full'>
+    <div className='flex items-center justify-center gap-2 text-black'> 
+      <span> &nbsp; &nbsp;</span>
+      <h3>Illinois</h3> 
+      <img className='mix-blend-multiplyn max-w-16' src="https://dejpknyizje2n.cloudfront.net/media/carstickers/versions/map-illinois-state-sticker-uc40b-x450.png" alt="" />
+    </div>
+
+     <h3>79°</h3>
+     <div className='w-[0.1em] h-full'></div>
+      <div style={{position:'relative',left:'50%'}}></div>
       <Link href="/" className='font-semibold text-[25px]'>
-      DENARD BROS
+      {/* DENARD&nbsp;BROS */}
+     <img className='rounded invert mix-blend-multiply' style={{maxHeight:'6em',marginLeft:'1.15em'}} src="https://pbs.twimg.com/profile_images/1674920905472892930/wggX-KbH_200x200.jpg" alt="" />
       </Link>
+     <div className='w-[3.5em] h-full'></div>
+      <Link href="/" className='font-semibold text-[25px]' style={{opacity:'0'}}>
+      DENARD&nbsp;BROS
+      </Link>
+
 
      <ul className={`fixed w-full h-full bg-red-400 ${toggle ? "top-0" : '-top-[100%]'} left-0
      flex flex-col justify-center xl:relative xl:top-0 xl:-left-0 xl:bg-transparent xl:flex-row 
@@ -43,7 +58,7 @@ const Header = () => {
      {/* <Buttons /> */}
      </div>
 
-     <div className="toggle xl:hidden cursor-pointer text-[35px] z-[3]">
+     <div className="rounded bg-grey-200 toggle xl:hidden cursor-pointer text-[35px] z-[3] fixed" style={{right:'0.8em',background:'#333',borderRadius:'50%',padding: '0.67%', color: 'white'}}>
       {
         toggle ? <MdClose onClick={()=>setToggle(false)} />
         : <HiBars3 onClick={()=>setToggle(true)} />

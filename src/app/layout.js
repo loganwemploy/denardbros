@@ -22,6 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="stylesheet" href="https://unpkg.com/open-props" />
+        <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" />
         <script src="https://cdn.tailwindcss.com"></script>
       </head>

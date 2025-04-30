@@ -19,11 +19,11 @@ const ScrollSnapSlider = () => {
 
 const nudgeRight = () => {
     console.log('awoooga')
-    setMovement(movement + 200 * 1)
+    setMovement(movement + 200 )
 }
 const nudgeLeft = () => {
     console.log('awoooga')
-    setMovement(movement - 260 * 1)
+    setMovement(movement - 260)
 }
 
   return (
@@ -36,7 +36,7 @@ const nudgeLeft = () => {
     <ul className="hs full">
      
        {cat1.map((c,index)=>( 
-        <article key={`item-${index}`} className="item p-1 rounded-xl bg-white ring-3 ring-indigo-50 sm:p-1 lg:p-4 gapx-3" style={{minHeight:'200px', maxHeight:'50vh',width:'auto',minWidth:'200px',maxWidth:'270px',minHeight:'22em',margin:'auto',border:'2px solid rgba(0,0,0,0.12)',transform: `translateX(${movement * -1}px)`}}>
+        <article key={`item-${index}`} className="item p-1 rounded-xl bg-white ring-3 ring-indigo-50 sm:p-1 lg:p-4 gapx-3" style={{minHeight:'200px', maxHeight:'50vh',width:'auto',minWidth:'200px',maxWidth:'270px',minHeight:'22em',margin:'auto',border:'2px solid rgba(0,0,0,0.12)',scrollRight: `${movement}`}}>
 <img src={c.imgUrl} alt="" style={{padding:'1em 0 3em 0',maxWidth:'200px'}} />
 <h4 className='text-md font-bold text-black'>{c.title}</h4>
 <h2>{c.displayText}</h2>

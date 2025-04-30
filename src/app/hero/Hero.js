@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='grid place-items-center'>Hero</div>
+    <div className='grid place-items-center w-full bg-red-900 h-[67vh]'>Hero</div>
   )
 }
 
