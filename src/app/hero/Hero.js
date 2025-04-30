@@ -2,9 +2,6 @@ import React from 'react'
 
 const Hero = () => {
   return (
-<<<<<<< Updated upstream
-    <div className='grid place-items-center'>Hero</div>
-=======
     <div className='grid place-items-center w-full  h-[67vh]'>
       	<div className="video-wrap">
                 <video id="myVideo" preload="auto" autoPlay playsInline loop muted className="custom-video" >
@@ -25,7 +22,6 @@ vid.load();
 </script>
 
     </div>
->>>>>>> Stashed changes
   )
 }
 
