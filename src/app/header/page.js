@@ -26,7 +26,7 @@ const Header = () => {
       <img className='mix-blend-multiplyn max-w-16' src="https://dejpknyizje2n.cloudfront.net/media/carstickers/versions/map-illinois-state-sticker-uc40b-x450.png" alt="" />
     </div>
 
-     <h3>79°</h3>
+     {/* <h3>79°</h3> */}
    
       
       <Link href="/" className='font-semibold text-[25px] w-1/3'>
@@ -58,7 +58,7 @@ const Header = () => {
      {/* <Buttons /> */}
      </div>
 
-     <div className="toggle xl:hidden cursor-pointer text-[35px] z-[3]">
+     <div className="toggle mr-[20px] xl:hidden cursor-pointer text-[35px] z-[3]">
       {
         toggle ? <MdClose onClick={()=>setToggle(false)} />
         : <HiBars3 onClick={()=>setToggle(true)} />
