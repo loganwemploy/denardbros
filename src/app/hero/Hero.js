@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='grid place-items-center w-full  h-[67vh]'>
+    <div className='grid place-items-center w-full'>
       	<div className="video-wrap">
                 <video id="myVideo" preload="auto" autoPlay playsInline loop muted className="custom-video" >
                     <source  src={'/6077266-uhd_4096_2160_25fps.webm'} type="video/webm"/>
