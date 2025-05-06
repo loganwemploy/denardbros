@@ -3,7 +3,8 @@ import ScrollSnapSlider from '../ScrollSnapSlider'
 import Hero from '../hero/Hero.js'
 import Section1 from '../section1/page'
 // import Section2 from '../section2/page'
-import Section2 from '../section2/page'
+
+import Section2test from '../Section2test'
 
 
 export default function page() {
@@ -11,7 +12,7 @@ export default function page() {
     <>
     <Hero />
     <Section1 />
-    <Section2 />
+    <Section2test />
     {/* <ScrollSnapSlider /> */}
     </>
   )
