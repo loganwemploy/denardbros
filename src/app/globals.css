@@ -155,7 +155,7 @@ h3 {
 
 .custom-video {
     filter: contrast(1.4) brightness(1.95) blur(0.0em) saturate(4%);
-    width: 100%;
+    width: 100vw;
     height: 500px;
     object-fit: cover;
 }
