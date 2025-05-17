@@ -1,7 +1,7 @@
 import React from 'react'
 import ScrollSnapSlider from '../ScrollSnapSlider'
-import Hero from '../hero/Hero.js'
-import Section1 from '../section1/page'
+import Hero from '../components/hero/Hero.js'
+import Section1 from '../components/section1/Section1'
 // import Section2 from '../section2/page'
 
 import Section2test from '../Section2test'
