@@ -163,3 +163,10 @@ h3 {
 .newrow:nth-child(even) {
   background-color: #dbe9eb;
 }
+
+.bg-sec3-img {
+  background-image: url("https://cdn.prod.website-files.com/631b8f075a2987718a1cb09d/63bfd462a55c346425d78846_DCC-Photo-585180.png"),url("https://cdn.prod.website-files.com/631b8f075a2987718a1cb09d/63bfd5ab0c0d1c907557e670_texture_slate.jpg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: center,center;
+  background-size: cover,cover;
+}

@@ -15,7 +15,7 @@ const Section2 = () => {
               className="sm:p-2 mx-auto md:w-[880px] md:h-[480px] object-contain rounded"
               alt=""
             />
-            <div className='md:flex md:justify-between p-4'>
+            <div className='flex flex-col-reverse md:flex-row md:justify-between p-4'>
               <div className=''>
                 <h2 className='mb-8'>{upperCaser("Registration is Open")}</h2>
                 <button class="flex items-center ml-0 mr-0 px-[30px] py-[20px] no-underline cursor-pointer bg-black text-white rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 hover:bg-gray-900">
